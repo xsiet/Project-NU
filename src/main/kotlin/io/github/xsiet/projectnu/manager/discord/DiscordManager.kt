@@ -31,7 +31,7 @@ class DiscordManager(
     private val avatarManager get() = plugin.avatarManager
     private val channelManager get() = plugin.channelManager
     private val jda = JDABuilder.createLight(
-        "MTEzODA4MDQ4MjMxMjA2OTE5MQ.Gyvpgv.4RCBnmZhDj-Y_nT2ViiM5Z-Akm_8FssoaPogVw"
+        ""
     ).apply {
         enableIntents(
             GatewayIntent.GUILD_MEMBERS,
